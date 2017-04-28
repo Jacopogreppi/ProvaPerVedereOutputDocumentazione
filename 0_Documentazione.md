@@ -2,7 +2,7 @@
 
 
 ### Design dei dati e database
-<img src="Design dei dati.png" />
+<img src="Designdeidati.png" />
 
 
 ### Schema E-R, schema logico e descrizione.
