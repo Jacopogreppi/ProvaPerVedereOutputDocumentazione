@@ -16,6 +16,6 @@ La parte di design dei dati ha la funzione di mostrare che tipi di dati sono sta
 <br>
 <br>
 <br>
-
+ddawdadawd
 
 ### Schema E-R, schema logico e descrizione.
