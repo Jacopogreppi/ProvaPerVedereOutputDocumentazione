@@ -34,5 +34,7 @@ Nella tabelle "utente" l'identificatore primario è il campo "email". Abbiamo op
 <br>
 <br>
 <br>
+
 ### Design dei dati e database
+
 <br>
