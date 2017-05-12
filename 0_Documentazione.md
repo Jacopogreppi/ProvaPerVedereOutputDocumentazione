@@ -114,7 +114,7 @@
 
 
 ### Mancanze/limitazioni conosciute
-Per quanto riguarda l'ambiente database un'ostacolo è stata la mancanta d'esperienza di creazione e d'utilizzo dei trigger, procedure ed eventi (quest'ultimi mai trattati). Sono convinto del fatto che se avessi avuto un pò più d'esperienza in quest'ambito sarei riuscito ad arrivare alla soluzione auspicata in minor tempo. Inoltre per quanto riguarda il capitolo degli eventi, non avendolo mai accennato in classe, mi sono dovuto affidare totalmente ad internet. Infatti un evento non funzionava e non sono riuscito a capire il perché. Ritengo che un'infarinatura di base mi avrebbe permesso di trovare una possibile soluzione.
+Per quanto riguarda l'ambiente database un'ostacolo è stata la mancanta d'esperienza di creazione e d'utilizzo dei trigger, procedure ed eventi (quest'ultimi mai trattati). Sono convinto del fatto che se avessi avuto un pò più d'esperienza in quest'ambito sarei riuscito ad arrivare alla soluzione auspicata in minor tempo. Inoltre per quanto riguarda il capitolo degli eventi, non avendolo mai accennato in classe, mi sono dovuto affidare totalmente ad internet. Infatti uno dei due eventi non funzionava e non sono riuscito a capirne il motivo. Ritengo che un'infarinatura di base mi avrebbe permesso di trovare una possibile soluzione e di investire meglio il tempo.
 
 
 ### Considerazioni personali
