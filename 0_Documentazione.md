@@ -18,9 +18,9 @@
 
 |Test Case      | TC-002                               |
 |---------------|--------------------------------------|
-|**Nome**       | Individuamento picco di dati|
+|**Nome**       | Individuamento picco di dati.|
 |**Riferimento**|REQ-003                               |
-|**Descrizione**| Quando viene rilevato un dato interessante i dati cominciano ad essere inseriti nella tabella shake |
+|**Descrizione**| Quando viene rilevato un dato interessante i dati cominciano ad essere inseriti nella tabella shake. |
 |**Prerequisiti**|Bisogna aver creato la tabella sismografo e shake e la procedura storePreviousValues.|
 |**Procedura**     |In sismografo si inseriscono dei valori non interessanti. Successivamente si inserisce un valore interessante e dopo altri dati di cui valore non è importante. |
-|**Risultati attesi** |Nella tabella shake ci devono essere i dati a partire da quando c'è stato il picco |
+|**Risultati attesi** |Nella tabella shake ci devono essere i dati a partire da quando c'è stato il picco. |
