@@ -65,6 +65,17 @@
 |**Nome**       | Immagazzinare dati ogni minuto.|
 |**Riferimento**|REQ-003                               |
 |**Descrizione**| Tramite un evento, la procedura storePreviousData viene chiamata autonomamente ogni minuto. |
-|**Prerequisiti**|Bisogno aver creato la tabella sismografo, shake e la procedura storePreviousData|
-|**Procedura**     |Si fa partire l'evento. Si inseriscono dei dati in sismografo... |
-|**Risultati attesi** |Dopo un minuto i dati devono essere nella tabella shake |
+|**Prerequisiti**|Bisogna aver creato la tabella sismografo, shake e la procedura storePreviousData.|
+|**Procedura**     |Si fa partire l'evento (quando si crea il database). Si inseriscono dei dati in sismografo. |
+|**Risultati attesi** |Dopo un minuto i dati devono essere nella tabella shake. |
+
+<br>
+
+|Test Case      | TC-007                               |
+|---------------|--------------------------------------|
+|**Nome**       | Cancellare dati ogni ora.|
+|**Riferimento**|REQ-003                               |
+|**Descrizione**| Tramite un evento, la procedure deleteOldData viene chiamata autonomamente ogni minuto. |
+|**Prerequisiti**|Bisogna aver creato la tabella sismografo, shake e la procedure deleteOldData.|
+|**Procedura**     |Si fa partire l'evento (quando si crea il database). Si inseriscono dei dati in sismografo.|
+|**Risultati attesi** |Dopo un minuto nella tabella sismografo non ci deve essere più nessun dato. |
