@@ -26,4 +26,4 @@ Sapendo che avrei avuto bisogno di campi che memorizzassero ogni quanto cancella
 Come ho già accennato precedentemente, per un fattore di analisi, a noi interessa poter immagazzinare i dati che precedono un terremoto. Ovviamente non ci interessano tutti, ma quelli che rientrano in un determinato range temporale (dettato da uno dei valori che ho inserito nalla tabella "configurazione"). Per questioni pratiche (date dal fatto che dovevo provare se il codice funzionasse) ho inserito il valore "1". In una situazione il numero di minuti sarà sicuramente maggiore. 
 Per permettere di monitorare tutto ciò ho creato una procedura. Qui di seguito si può trovare un'immagine dell'intera procedura che adesso andrò a spiegare.
 <br>
-<img src="procedura.PNG" />
+<img src="procedura1.PNG" />
