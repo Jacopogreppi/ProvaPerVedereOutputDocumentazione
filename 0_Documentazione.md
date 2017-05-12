@@ -37,3 +37,8 @@ Come ho già accennato nella spiegazione della procedura, vi deve essere la poss
 <br>
 Si può notare come nel trigger io vada ad utilizzare nuovamente le variabili contententi i valori della tabella configurazioni. Ciò rende tutto più modulabile e riduce la possibilità di commettere degli errori. Anche qui, il codice da me scritto continene su ogni riga un commento che ne va a spiegare il funzionamento
 <br>
+<br>
+Dato che nella tabella sismografo verranno inseriti tutti i dati, e per la gran maggioranza saranno inutili per il nostro progetto, quest'ultima si riempirà con estrema facilità in poco tempo. Per ovviare a questo problema ho scritto una procedura che cancellasse i dati della tabella sismografo. Ovviamente non tutti i dati vengono cancellati, ma solamente quelli più vecchi di "d" minuti che è un parametro specificato nella tabella configurazione. Se quest'ultimo valesse 60, una volta chiamata la procedura nella tabella sismografo rimarrebbero solamente i dati non più vecchi di un'ora. Come già detto, ciò viene fatto per non intasare il database.
+<br>
+<img src="cancellare.PNG" />
+<br>
