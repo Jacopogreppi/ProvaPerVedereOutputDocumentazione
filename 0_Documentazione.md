@@ -31,7 +31,9 @@ Per permettere di monitorare tutto ciò ho creato una procedura.
 È possibile notare come la procedura necessiti di 2 parametri. Il primo "shakeId" rappresenta l'indenficativo di ogni terremoto, mentre il secondo (a) rappresenta il valore che indica il range temporale per salvare i dati. Se dovesse valere 2, significata che la procedura immagazinerebbe i dati partire da 2 minuti fa in avanti quando c'è un picco di dati. Una volta selezionati i dati a partire ad "a" minuti prima di un picco dalla tabella sismografo, essi vengono spostati nella tabella shake. Lo scopo di quest'ultima tabella è proprio quello di conservare tutti i dati considerati importanti dal punto di vista di analisi. Per ulteriori dettagli sul funzionamento di ogni singola riga di codice si possono leggere i commenti dato che sono esplicativi.
 <br>
 <br>
-Parole
+Come ho già accennato nella spiegazione della procedura, vi deve essere la possibilità di inserire i dati della tabella sismografo nella tabella shake a partire dall'individuamento di un determinato valore. Come abbiamo visto anche in classe durante le lezioni, per poter fare ciò è necessario l'utilizzo di un trigger.
 <br>
 <img src="trigger.PNG" />
+<br>
+Si può notare come nel trigger io vada ad utilizzare nuovamente le variabili contententi i valori della tabella configurazioni. Ciò rende tutto più modulabile e riduce la possibilità di commettere degli errori. Anche qui, il codice da me scritto continene su ogni riga un commento che ne va a spiegare il funzionamento
 <br>
