@@ -5,6 +5,6 @@
 
 ### Database
 
-<img src="prime 2 tabelle.png" />
+<img src="prime 2 tabelle.PNG" />
 
 
