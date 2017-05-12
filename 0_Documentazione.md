@@ -67,4 +67,4 @@
 |**Descrizione**| Tramite un evento, la procedura storePreviousData viene chiamata autonomamente ogni minuto. |
 |**Prerequisiti**|Bisogno aver creato la tabella sismografo, shake e la procedura storePreviousData|
 |**Procedura**     |Si fa partire l'evento. Si inseriscono dei dati in sismografo... |
-|**Risultati attesi** | |
+|**Risultati attesi** |Dopo un minuto i dati devono essere nella tabella shake |
