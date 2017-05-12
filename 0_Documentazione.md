@@ -24,6 +24,8 @@ Sapendo che avrei avuto bisogno di campi che memorizzassero ogni quanto cancella
 <br>
 <br>
 Come ho già accennato precedentemente, per un fattore di analisi, a noi interessa poter immagazzinare i dati che precedono un terremoto. Ovviamente non ci interessano tutti, ma quelli che rientrano in un determinato range temporale (dettato da uno dei valori che ho inserito nalla tabella "configurazione"). Per questioni pratiche (date dal fatto che dovevo provare se il codice funzionasse) ho inserito il valore "1". In una situazione il numero di minuti sarà sicuramente maggiore. 
-Per permettere di monitorare tutto ciò ho creato una procedura. Qui di seguito si può trovare un'immagine dell'intera procedura che adesso andrò a spiegare.
+Per permettere di monitorare tutto ciò ho creato una procedura.
 <br>
 <img src="pro.PNG" />
+<br>
+È possibile notare come la procedura necessiti di 2 parametri. Il primo "shakeId" rappresenta l'indenficativo di ogni terremoto, mentre il secondo (a) rappresenta il valore che indica il range temporale per salvare i dati. Se dovesse valere 2, significata che la procedura immagazinerebbe i dati partire da 2 minuti fa in avanti quando c'è un picco di dati. 
