@@ -47,5 +47,5 @@ Ovviamente il sistema deve essere automatizzato e non devo essere io a chiamare 
 <br>
 <img src="eventoStore.PNG" />
 <br>
-<img src="eventoCancella.PNG" />
+<img src="eventoCancellare.PNG" />
 <br>
