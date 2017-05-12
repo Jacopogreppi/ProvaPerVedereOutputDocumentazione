@@ -15,6 +15,7 @@ L'immagine qui sopra rappresenta il codice che ho ideato e scritto per la creazi
 <br>
 L'immagine appena inserita mostra il codice sql che ho scritto per la creazione delle tabelle "sismografo" e "shake". Potrebbe saltare subito all'occhio il fatto che non sono collegate tra di loro tramite delle foreign key. Ciò non è una dimenticanza o un errore di progettazione, ma semplicemente riflettendo sulla situazione che si è presentata, sono giunto alla conclusione che non fosse necessario relazionarle.
 <br>
+<br>
 COSE
 <br>
 <img src="conf.PNG" />
