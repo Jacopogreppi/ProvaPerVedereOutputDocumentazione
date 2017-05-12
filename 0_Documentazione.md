@@ -45,5 +45,7 @@ Dato che nella tabella sismografo verranno inseriti tutti i dati, e per la gran 
 <br>
 Ovviamente il sistema deve essere automatizzato e non devo essere io a chiamare le procedure manualmente. Ho creato un evento per ogni procedura che ogni lasso temporale da me specificato nel codice andasse ad eseguire la sua procedura.
 <br>
-<img src="eventoProcedura.PNG" />
+<img src="eventoStore.PNG" />
+<br>
+<img src="eventoCancella.PNG" />
 <br>
