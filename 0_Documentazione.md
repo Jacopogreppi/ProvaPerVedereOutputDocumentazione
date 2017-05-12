@@ -48,4 +48,3 @@ Ovviamente il sistema deve essere automatizzato e non devo essere io a chiamare 
 <img src="eventoStore.PNG" />
 <br>
 <img src="eventoCancellare.PNG" />
-<br>
