@@ -35,3 +35,36 @@
 |**Prerequisiti**|Bisogna aver creato la tabella sismografo e configurazione.|
 |**Procedura**     | Si inseriscono dei dati nella tabella sismografo. Se il parametro che specifica dopo quanto tempo eliminare i dati equivale ad 2, si aspettano 2 minuti. Si chiama la procedura deleteOldData.|
 |**Risultati attesi** |Nella tabella sismografo non ci devono più essere dati. |
+
+<br>
+
+|Test Case      | TC-003                               |
+|---------------|--------------------------------------|
+|**Nome**       | Cancellare dati vecchi.|
+|**Riferimento**|REQ-003                               |
+|**Descrizione**| La procedura, una volta chiamata, deve cancellare i dati più vecchi di un determinato lasso temporale (specificato nel parametro) dalla tabella sismografo. |
+|**Prerequisiti**|Bisogna aver creato la tabella sismografo e configurazione.|
+|**Procedura**     | Si inseriscono dei dati nella tabella sismografo. Se il parametro che specifica dopo quanto tempo eliminare i dati equivale ad 2, si aspettano 2 minuti. Si chiama la procedura deleteOldData.|
+|**Risultati attesi** |Nella tabella sismografo non ci devono più essere dati. |
+
+<br>
+
+|Test Case      | TC-003                               |
+|---------------|--------------------------------------|
+|**Nome**       | Cancellare dati vecchi.|
+|**Riferimento**|REQ-003                               |
+|**Descrizione**| La procedura, una volta chiamata, deve cancellare i dati più vecchi di un determinato lasso temporale (specificato nel parametro) dalla tabella sismografo. |
+|**Prerequisiti**|Bisogna aver creato la tabella sismografo e configurazione.|
+|**Procedura**     | Si inseriscono dei dati nella tabella sismografo. Se il parametro che specifica dopo quanto tempo eliminare i dati equivale ad 2, si aspettano 2 minuti. Si chiama la procedura deleteOldData.|
+|**Risultati attesi** |Nella tabella sismografo non ci devono più essere dati. |
+
+<br>
+
+|Test Case      | TC-004                               |
+|---------------|--------------------------------------|
+|**Nome**       | Immagazzinare dati ogni minuto.|
+|**Riferimento**|REQ-003                               |
+|**Descrizione**| Tramite un evento, la procedura storePreviousData viene chiamata autonomamente ogni minuto. |
+|**Prerequisiti**|Bisogno aver creato la tabella sismografo, shake e la procedura storePreviousData|
+|**Procedura**     |Si fa partire l'evento. Si inseriscono dei dati in sismografo... |
+|**Risultati attesi** | |
